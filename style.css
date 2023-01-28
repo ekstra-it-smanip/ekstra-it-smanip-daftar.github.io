@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(90deg, #2937f0 0%, #6610f2 50%, #9f1ae2 100%);
+
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+}
+a {
+  color: #2937f0;
+  text-decoration: underline;
+}
+a:hover {
+  color: #212cc0;
+}
+
+a:not([href]):not([class]),
+a:not([href]):not([class]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+a > code {
+  color: inherit;
+}
+.fw-bold {
+  font-weight: 700 !important;
+}
